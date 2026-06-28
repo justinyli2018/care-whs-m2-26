@@ -25,20 +25,6 @@ pip install -r requirements.txt
 data_dir: str = "/path/to/your/Wholeheart_Train_Dataset/"
 ```
 
-The expected folder structure is:
-
-```
-Wholeheart_Train_Dataset/
-├── CT/
-│   ├── Case0001_image.nii.gz
-│   ├── Case0001_label.nii.gz
-│   └── ...
-└── MR/
-    ├── Case0001_image.nii.gz
-    ├── Case0001_label.nii.gz
-    └── ...
-```
-
 ### 2. Train with defaults
 
 ```bash
