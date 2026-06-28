@@ -1,4 +1,4 @@
-# care-revive: 3D UNet for Whole-Heart Segmentation
+3D UNet for Whole-Heart Segmentation
 
 A PyTorch implementation of 3D UNet for multi-class cardiac segmentation on the WHS++ dataset, with support for Dice/CE/topology-constrained losses and Sharpness-Aware Minimization (SAM).
 
