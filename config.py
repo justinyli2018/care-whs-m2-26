@@ -5,7 +5,7 @@ from typing import Tuple, Optional
 @dataclass
 class DataConfig:
     # Change this line to the correct data directory for your project
-    data_dir: str = "/data2/archive/justin/care-heart/Wholeheart_Train_Dataset/"
+    data_dir: str = "/path/to/dataset"
     val_data_dir: Optional[str] = None
 
     target_size: Tuple[int, int, int] = (128, 128, 128)
